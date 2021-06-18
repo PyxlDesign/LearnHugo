@@ -18,7 +18,7 @@ cardbackground: "#263238" #optional: card background color; only shows when no i
     twitter: "https://twitter.com/"
     github: "https://github.com/"
     image: "/images/avatar-64x64.png"
-draft: true
+draft: false
 ---
 
 # My First Image is here
