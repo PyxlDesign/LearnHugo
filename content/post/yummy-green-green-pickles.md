@@ -25,4 +25,4 @@ draft: true
 
 What do you think?
 
-{{<figure src="/images/markdown-icon.svg">}}
+{{<figure src="/images/markdown-icon.png">}}
