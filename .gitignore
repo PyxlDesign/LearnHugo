@@ -1,0 +1,9 @@
+### Hugo ###
+# hugo binary
+hugo*
+
+#gernerated files at defaul location
+/public/
+/resource/_gen
+
+# End of https://www.gitignore.io/api/hugo
