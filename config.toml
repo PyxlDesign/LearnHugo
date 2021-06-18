@@ -1,0 +1,3 @@
+baseURL = "https://hugo.pyxldesign.com/"
+languageCode = "en-us"
+title = "Pyxl Design with Hugo"
