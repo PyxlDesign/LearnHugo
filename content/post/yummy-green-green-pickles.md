@@ -24,3 +24,5 @@ draft: true
 # My First Image is here
 
 What do you think?
+
+{{<figure src="/images/markdown-icon.svg">}}
