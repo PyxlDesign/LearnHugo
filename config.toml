@@ -22,7 +22,7 @@ MetaDataFormat = "yaml"
   github = "https://github.com/firstname_lastname/"
   linkedin = "https://linkedin.com/in/firstname_lastname/"
   facebook = "https://facebook.com/firstname_lastname/"
-  copyrightyear = "2015"
+  copyrightyear = "2021"
   frontpageposts = 6 #number of post cards to display on frontpage
 
 # Fully customizable header menu
