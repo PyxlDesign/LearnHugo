@@ -9,7 +9,7 @@ MetaDataFormat = "yaml"
 	about = "/:filename/"
 
 [params]
-  author = "Firstname Lastname"
+  author = "Christopher Schultz"
   avatar = "/images/avatar.png"
   background = "/images/background.jpg"
   description = "A place to publish my incomprehensible ramblings" #meta description
