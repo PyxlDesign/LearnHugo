@@ -1,3 +1,26 @@
 {{ define "main" }}
-<p>Hi I'm the index file content.</p>
+   <p>Hi I'm the index file content.</p>
+   <h2>Our Posts:</h2>
+   <ul>
+      {{ range first 3 (where .Site.RegularPages ".Type" "post").ByDate.Reverse }}
+         <li>
+            <h4>
+               Title: {{ .Title }}
+            </h4>
+            <ul>
+               <li>
+                  Type: {{ .Type }}
+               </li>
+               <li>
+                  Kind: {{ .Kind }}
+               </li>
+               <li>
+                  Section: {{ .Section }}
+               </li>
+            </ul>
+         </li>
+      {{ end }}
+   </ul>
+
+   <a href="/post">All posts</a>
 {{ end }}
