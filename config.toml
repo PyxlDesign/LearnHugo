@@ -1,4 +1,4 @@
-baseURL = "https://pyxldesign.github.io/"
+baseURL = ""
 languageCode = "en-us"
 title = "Pyxl Design with Hugo"
 theme = "MDLHugo"
