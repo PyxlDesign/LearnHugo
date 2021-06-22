@@ -1,0 +1,7 @@
+{{ define "main" }}
+   <h1>{{ .Site.Title }}</h1>
+   {{ range (where .Site.RegularPages  ".Type" "post").ByDate.Reverse }}
+      <h2>{{ .Title }}</h2>
+      <div>{{ .Summary }}</div>
+   {{ end }}
+{{ end }}
