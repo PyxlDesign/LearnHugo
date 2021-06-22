@@ -1,7 +1,7 @@
 baseURL = ""
 languageCode = "en-us"
 title = "Pyxl Design with Hugo"
-theme = "MDLHugo"
+theme = "LearnHugo"
 MetaDataFormat = "yaml"
 
 [permalinks]
