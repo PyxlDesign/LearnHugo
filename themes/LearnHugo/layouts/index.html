@@ -5,7 +5,9 @@
       {{ range first 3 (where .Site.RegularPages ".Type" "post").ByDate.Reverse }}
          <li>
             <h4>
-               Title: {{ .Title }}
+               <a href="{{ .RelPermalink }}">
+                  Title: {{ .Title }}
+               </a>
             </h4>
             <ul>
                <li>
